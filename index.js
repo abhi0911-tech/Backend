@@ -19,7 +19,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: 'http://localhost:3000/api',
+        url: process.env.SERVER_URL || "https://backend-h32q.onrender.com/api"
       },
     ],
   },
